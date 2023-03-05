@@ -51,7 +51,7 @@ apt install git
 
 apt update && apt upgrade
 
-git clone https://github.com/zim-bot/zimbot-v3
+git clone https://github.com/Mabantity1/Munyoro-bot
  
 cd zimbot-v3
 
