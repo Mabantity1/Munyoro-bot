@@ -1,17 +1,17 @@
-name: zim-bot/zimbot-v3
+name: MABANTITY1/Munyoro-bot 
 
 on:
   push:
-    branches: [zim-bot-inc]
+    branches: [Munyoro-bot-inc]
   pull_request:
-    branches: [zim-bot-inc]
+    branches: [Munyoro-bot]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: zim-bot-inc
-  MainBranch: zim-bot-inc
+  Branches: Munyoro-bot-icn
+  MainBranch:Munyoro-bot-icn 
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm install
   BuildCommand: npm update 
