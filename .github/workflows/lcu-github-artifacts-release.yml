@@ -11,7 +11,7 @@ permissions: write-all
 env:
   CI: false
   Branches: Munyoro-bot-icn
-  MainBranch:Munyoro-bot-icn 
+  MainBranch:Mabantity1-patch-2
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm install
   BuildCommand: npm update 
