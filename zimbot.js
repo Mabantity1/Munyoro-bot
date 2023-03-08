@@ -1,15 +1,15 @@
 
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
+MUNYORO BOT INC 2022 ®️ALL RIGHTS RESERVED
 //▮
 //▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
 //▮THIS SOFTWARE IS UNDER UZ COPYRIGHT
 //▮
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
-//▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+//▮kanjumatakundacharles@gmail.com 
+//▮WHATSAPP US : +27719664081
+//▮YOUTUBE CHANNELL: https://www.youtube.com/@takundacharleskanjuma6290
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -17,7 +17,7 @@
 //┃THIS SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING ZIMBOT
+//┃THANKS FOR CHOOSING MUNYORO BOT 
 //┃THANKS TO DikaArdnt
 //┃BEHOLD THE NEW
 //┃
@@ -69,8 +69,8 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
+botname = 'MUNYORO BOT'
+wm = 'MUNYORO BOT'
 global.reactmoji = '🇿🇼'
 limitCount = setting.limit
 
@@ -90,9 +90,9 @@ const dripsno = JSON.parse(fs.readFileSync('./database/autoblock.json'))
 const dripswelcome = JSON.parse(fs.readFileSync('./database/welcome.json'))
 
 
-//////created by zim-bot-inc
+//////created by Mabantity1-patch-2
 
-module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
+module.exports = Mabantity1patch2 = async (Mabantity1patch2, m, chatUpdate, store) => {
     try {
         var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
         var budy = (typeof m.text == 'string' ? m.text : '')
@@ -114,7 +114,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const isAutoblock =  autoblock.includes('@s.whatsapp.net') 
 	
         //GROUP METADATA
-        const groupMetadata = m.isGroup ? await ZimBotInc.groupMetadata(m.chat).catch(e => {}) : ''
+        const groupMetadata = m.isGroup ? await MUNYOROBOT.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
         const participants = m.isGroup ? await groupMetadata.participants : ''
         const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
@@ -129,7 +129,7 @@ module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
         const zimbotincv3 = body.slice(0).trim().split(/ +/).shift().toLowerCase()
     	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
         const isAntinsfw = m.isGroup ?  dripsno.includes(m.chat) : false
-        const isWelcome = m.isGroup ? dripswelcome.includes(m.chat) : false
+        const isWelcome = m.isGroup ? takxwelcome.includes(m.chat) : false
 //zim bot inc
 
 const timuu = moment.tz('Africa/Harare').format('HH:mm:ss')
@@ -257,8 +257,8 @@ if(time2 < "05:00:00"){
 var ucapannya2 = `Good morning 🌅`
 }
 
-global.botdev = ['27634090203','447441437150']
-global.bothelp = ['918188019676']
+global.botdev = ['27719664081']
+global.bothelp = ['27719664081']
 
 //function rpg
    const { 
@@ -449,7 +449,7 @@ randek = jsonDrips[randIndex];
         }
 	    
         //public or self
-        if (!ZimBotInc.public) {
+        if (!Munyorobot.public) {
             if (!m.key.fromMe) return
         }
     
@@ -458,19 +458,19 @@ randek = jsonDrips[randIndex];
             console.log(chalk.blue(chalk.bgWhite('ZIMBOT')), chalk.whiteBright(chalk.bgRed(new Date)), chalk.black(chalk.bgRed(budy || m.mtype)) + '\n' + chalk.magenta('⦿ FROM'), chalk.bgYellowBright(pushname), chalk.bgGray(m.sender) + '\n' + chalk.bgCyanBright('RECIEVED'), chalk.yellowBright(m.isGroup ? pushname : 'DM', m.chat))
         }
 	
-              if (global.dripsreadgroup) {
-              if (m.isGroup) { ZimBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
+              if (global.takxreadgroup) {
+              if (m.isGroup) { MunyoroBot.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
               }
-              if (global.dripsreadall) { if (m.message) { ZimBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
+              if (global.takxreadall) { if (m.message) { MunyoroBot.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
               }
-                if (global.dripsrecord) { if (m.chat) { ZimBotInc.sendPresenceUpdate('recording', m.chat) }
+                if (global.takxrecord) { if (m.chat) { MunyoroBot.sendPresenceUpdate('recording', m.chat) }
             }
             
-              if (global.dripstyping) { if (m.chat) { ZimBotInc.sendPresenceUpdate('composing', m.chat) }
+              if (global.takxtyping) { if (m.chat) { MunyoroBot.sendPresenceUpdate('composing', m.chat) }
             }
-              if (global.available) { if (m.chat) { ZimBotInc.sendPresenceUpdate('available', m.chat) }
+              if (global.available) { if (m.chat) { MunyoroBot.sendPresenceUpdate('available', m.chat) }
               }
-              if (global.unavailable) { if (m.chat) { ZimBotInc.sendPresenceUpdate('unavailable', m.chat) }
+              if (global.unavailable) { if (m.chat) { MunyoroBot.sendPresenceUpdate('unavailable', m.chat) }
             }
 	//Auto reset
   //Jika bot on di jam 24.00 maka limit dan darah bakal reset
@@ -506,10 +506,9 @@ vide = await getBuffer(global.vid)
 //downloader
 const sendFile = async(link, type, options) => {
 hasil = await getBuffer(link)
-ZimBotInc.sendMessage(from, hasil, type, options).catch(e => {
-fetch(link).then((hasil) => {
-ZimBotInc.sendMessage(from, hasil, type, options).catch(e => {
-ZimBotInc.sendMessage(from, { url : link }, type, options).catch(e => {
+MunyoroBot.sendMessage(from, hasil, type, options).catch(e => {
+fetch(link).then((hasil) => {MunyoroBot.sendMessage(from, hasil, type, options).catch(e => {
+MunyoroBot.sendMessage(from, { url : link }, type, options).catch(e => {
 m.reply('ERROR [ ! ]')
 console.log(e)
 })
@@ -519,11 +518,11 @@ console.log(e)
 }
 
 const reply = (teks) => {
-    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` BOT GROUP`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": `${global.ytchannel}`}}}, { quoted: m})
+    MunyoroBot.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` BOT GROUP`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./MABANTITYY1/Munyoro.jpg`),"sourceUrl": `${global.ytchannel}`}}}, { quoted: m})
 }
 
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `BOT YOUTUBE CHANNEL `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": `${global.group2}`}}}, { quoted: m})
+    Munyorobot.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `BOT YOUTUBE CHANNEL `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": `${global.group2}`}}}, { quoted: m})
 }
 
 //dokumen random
@@ -546,8 +545,8 @@ return '```' + abantyulidab+ '```'
 } 
 
 
-if (m.chat.startsWith("212")) {
-ZimBotInc.updateBlockStatus(m.sender,'block')
+if (m.chat.startsWith("212")) 
+{MunyoroBot.updateBlockStatus(m.sender,'block')
             
             }
 
@@ -627,60 +626,60 @@ const levelRole = level.getLevelingLevel(m.sender, _level)
 // BGM CODE
 for (let drips of zimbot){
     if (budy === drips){
-            result = fs.readFileSync(`./bgm/${drips}.mp3`)
-ZimBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4' , ptt: true }, { quoted: m})
+            result = fs.readFileSync(`./bgm/${takx}.mp3`)
+Munyorobot.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4' , ptt: true }, { quoted: m})
 }
 }   
 
-//BY DRIPS ZIM BOT INC   
+//BY TAKX MUNYORO   
 	// auto set bio
 	if (db.data.settings[botNumber].autobio) {
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await ZimBotInc.setStatus(`ZIM-BOT-INC| BOT ONLINE: ${runtime(uptime)}`)
+		await Munyorobot.setStatus(`MUNYORO-BOT BOT ONLINE: ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
 
 const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = ZimBotInc.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
-            return ZimBotInc.relayWAMessage(po, {waitForAck: true, quoted:mek})
+            let po = MunyoroBot.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
+            return MunyoroBot.relayWAMessage(po, {waitForAck: true, quoted:mek})
         }
 	    
-        //----------ANTILINK ALL--------BY-DRIPS------\\
+        //----------ANTILINK ALL--------BY-TAKX------\\
         if (db.data.chats[m.chat].antiinstagram) {
         if (budy.includes("https://www.instagram.com/")){
      if (!isBotAdmins) return
-     zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n\n*you are admn okay*`
+     Munyoro-bot = `*▊▊▊DETECTED▊▊▊*\n\n*you are admn okay*`
      if (isAdmins) return m.reply(zimbotv3)
      if (m.key.fromMe) return m.reply(zimbotv3)
      if (isCreator) return m.reply(zimbotv3)
      kice = m.sender
-     await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-     ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no ig links here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+     await MunyoroBot.groupParticipantsUpdate(m.chat, [kice], 'remove')
+     Munyorobot.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no ig links here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
      }
     }
      //lets go
      if (db.data.chats[m.chat].antifb) {
     if(budy.includes("https://facebook.com/")){
     if (!isBotAdmins) return
-    zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n\n*you are admin okay*`
-    if (isAdmins) return m.reply(zimbotv3)
-    if (m.key.fromMe) return m.reply(zimbotv3)
-    if (isCreator) return m.reply(zimbotv3)
+    MunyoroBot = `*▊▊▊DETECTED▊▊▊*\n\n*you are admin okay*`
+    if (isAdmins) return m.reply(munyorobot)
+    if (m.key.fromMe) return m.reply(munyorobot)
+    if (isCreator) return m.reply(munyorobot)
      kice = m.sender
-     await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-     ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no fb links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+     awaitMunyoroBot.groupParticipantsUpdate(m.chat, [kice], 'remove')
+    MunyoroBot.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no fb links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } 
      }
 //lets go
      if (db.data.chats[m.chat].antitelegram) {
      if (budy.includes("https://t.me/")){
      if (!isBotAdmins) return
-     zimbotv3 = `*▊▊▊DETECTED▊▊▊*\n*you are admin okay*`
-     if (isAdmins) return m.reply(zimbotv3)
-     if (m.key.fromMe) return m.reply(zimbotv3)
+     munyorobot = `*▊▊▊DETECTED▊▊▊*\n*you are admin okay*`
+     if (isAdmins) return m.reply(munyorobot)
+     if (m.key.fromMe) return m.reply(munyoro)
      if (isCreator) return m.reply(zimbotv3)
      kice = m.sender
      await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
