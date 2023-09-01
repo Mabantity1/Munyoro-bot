@@ -71,3 +71,7 @@ echo scan the qr code and enjoy bot
 ## ATOMIC.BIO
 
 # [![Atomic bio](https://img.shields.io/badge/atomic.bio-25D366?style=for-the-badge&logo=Atomic.Boi&logoColor=purple)](https://www.atom.bio/munyoro-bot_/)
+
+ ## > [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF00FF&lines=I+AM+TAKUNDA+CHARLES+KANJUMA+MABANTITY1+MUNYORO.;FROM+MUNYORO+VILLAGE+SEKE+ZIMBABWE.;I+LEARN+AT+JONAS+HIGH;NOW+I+STAY+IN+WELLINGTON;WESTERN+CAPE+SOUTH+AFRICA+❤️❤️❤️)](https://git.io/typing-svg)
+
+<div align="center
