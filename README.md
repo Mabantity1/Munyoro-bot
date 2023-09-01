@@ -1,3 +1,6 @@
+ ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF00FF&lines=I+AM+TAKUNDA+CHARLES+KANJUMA+MABANTITY1+MUNYORO.;FROM+MUNYORO+VILLAGE+SEKE+ZIMBABWE.;I+LEARN+AT+JONAS+HIGH;NOW+I+STAY+IN+WELLINGTON;WESTERN+CAPE+SOUTH+AFRICA+❤️❤️❤️)](https://git.io/typing-svg)
+
+<div align="center
 
 
 <a href="https://youtu.be/ww4z2m3uORU"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/ww4z2m3uORU" /><br>
