@@ -3,7 +3,7 @@
 <div align="center
 
 
-<a href="https://youtu.be/ww4z2m3uORU"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/ww4z2m3uORU" /><br>
+<a href="https://www.youtube.com/@Munyorobot1"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@Munyorobot1" /><br>
 # MUNYORO BOT 
  WhatsApp with so Many features using multi device  [BAILEYS](https://github.com/adiwajshing/baileys)
 
